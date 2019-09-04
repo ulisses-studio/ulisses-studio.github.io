@@ -1,0 +1,412 @@
+/* General styles - START */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bebas";
+  font-size: 30px;
+  }
+
+a:link, a:visited {
+  color: #ECECD4;
+  text-align: center;
+  text-decoration: none;
+  }
+
+p {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+i {
+  font-size: 70px;
+  color: #ff6161;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+section {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding: 0px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+h2 {
+  color: #ff6161;
+  font-size: 67px;
+  padding: 70px;
+  letter-spacing: 5px;
+}
+
+h5 {
+  font-size: 30px;
+  color: #f1f1f1;
+  padding: 7px;
+}
+
+h6 {
+  font-size: 20px
+}
+
+article {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.woff");
+  font-style: normal;
+}
+
+/* General styles - END */
+
+
+/* Navbar & welcome section styles - START*/
+
+.navbar {
+  background-color: #efefef;
+  height: 50px;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.span-roznica {
+  color: #ff6161;
+}
+
+.span-projekty {
+  color: #444444;
+}
+
+/* Navbar & welcome section styles - END*/
+
+
+/* Sections styles - START */
+
+.sekcja1 {
+  background-image: url("../img/tlo-czolowka.jpg");
+  background-position: top;
+  padding-top: 250px;
+  padding-bottom: 130px;
+  height: 100vh;
+}
+
+.sekcja3 {
+  background-image: url("../img/twarz.jpg");
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sekcja5 {
+  background-image: url("../img/tlo-czolowka.jpg");
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.sekcja7 {
+  background-image: url("../img/tlo-czolowka.jpg");
+  padding-top: 30px;
+  background-color: #d3d3d3;
+  }
+
+.tytul-port {
+
+  padding-top: 5px;
+  height: auto;
+  font-size: 40px;
+  background-color: rgb(37, 37, 37);
+ 
+}
+
+/* Sections styles - END */
+
+
+/* Section 5 styles (workshop) - START */
+
+.sass-git {
+  padding-top: 30px;
+}
+  
+.bootstrap {
+  padding-top: 60px;
+  padding-bottom: 17px;
+}
+
+.adobe {
+  font-size: 20px;
+  letter-spacing: 0px;
+  padding: 5px;
+  color: #ff6161;
+  font-weight: 900;
+}
+
+.adobe-1 {
+  padding-top: 30px;
+  
+}
+/* Section 5 styles (workshop) - END */
+
+
+/* Section 8 & section 10 styles (web projects) - START */
+
+ .img-port {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-size: 0px;
+  } 
+
+.div-port {
+  padding: 0px;
+  font-size: 0px;
+}
+
+/* Section 8 styles (web projects) - END */
+
+
+/* Section 10 styles - (Logo projects) - START */
+
+.logs {
+  padding: 55px;
+  }
+
+.logo-projects {
+  height: 170px;
+  }
+
+#rg {
+  height: 90px;
+}
+#cds, #gk  {
+  height: 100px;
+  }
+
+/* Section 10 styles - (Logo projects) - END */
+
+/* Footer styles - START*/
+
+#kontakt {
+  padding-left: 0px;
+  padding: 0px;
+}
+
+footer {
+  background-color: #444444;
+  color: beige;
+  font-family: "Bebas";
+  font-size: 5px;
+  padding-left: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  height: auto;
+}
+
+.footer-b {
+  padding-top: 120px;
+  padding-left: 0px;
+  padding: 0px;
+}
+
+.foot {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  text-align: right;
+  }
+
+.logo-foot {
+  padding-top: 90px;
+ 
+}
+
+.logo-stopa {
+  padding-top: 120px;
+}
+
+.p-stopka {
+  padding-left: 130px;
+}
+
+.i-stopka {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.i-whatsapp {
+  padding-right: 33px;
+  font-size:25px;
+}
+
+.copy {
+  letter-spacing: 0px;
+  padding-top: 90px;
+}
+
+/* Footer styles - END */
+
+/* Parralax styles - START */
+
+.parralax1 {
+  padding: 0px;
+ }
+
+.parralax-foot {
+  padding-left: 0px;
+  padding: 0px;
+}
+
+.parralax-window {
+	height: auto;
+	padding-left: 0px;
+	padding: 0px;
+	background-size: cover;
+  }
+
+  /* Parralax styles - END */
+
+.notka {
+  padding-left: 15px;
+  }
+
+.p-cookies {
+  font-size: 10px;
+  padding: 0px;
+  margin:0px;
+  color: rgb(199, 199, 199);
+}
+.alert {
+  height: 90px;
+}
+button {
+
+  padding: 0px;
+}
+
+#polityka {
+  font-family: Lato, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  color: rgb(199, 199, 199);
+  padding-top: 3px;
+}
+
+/* RESPONSIVE - START */
+
+@media (max-width:475px) {
+  
+#logos-nav {
+  display: none;
+   }
+
+section {
+  padding: 0px;
+}
+ 
+.sekcja1 {
+  padding: 15px;
+}
+
+#pierwszy {
+    
+padding-top: 70px;
+}
+
+.pierwszy-div {
+
+padding-top: 50px;
+height: 70px;
+}
+  
+h1 {
+    font-size: 17px;
+  }
+
+h2 {
+    font-size: 60px;
+    letter-spacing: 0px;
+    padding-top: 70px;
+ 
+  }
+p {
+    font-size: 15px;
+    padding-top: 40px;
+    }
+
+    .notka {
+
+      padding-right: 5px;
+    }
+
+.parralax-window {
+    height: 50px;
+  }
+
+#logo-koncowe {
+    height: 30px;
+    
+  }
+.logo-stopa {
+  display: none;
+}
+
+.copy {
+  padding-top: 20px;
+}
+
+}
+
+
+.logo-projects {
+  height: 150px;
+  }
+
+#rg {
+  height: 150px;
+}
+#cds, #gk  {
+  height: 180px;
+  }
+
+  #ca {
+    height: 110px;
+  }
+
+
+@media (min-width:475px) and (max-width:1314px) {
+
+.p-stopka {
+  font-size: 16px;
+  }
+  
+.copy {
+  padding-top: 20px;
+  }
+
+}
+
+/* RESPONSIVE - END */
+
+
+/* Kodował: Mateusz Gawroński (Ulisses Creative Studio) */
+
