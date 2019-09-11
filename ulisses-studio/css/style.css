@@ -168,7 +168,7 @@ article {
 /* Section 5 styles (workshop) - END */
 
 
-/* Section 8 & section 10 styles (web projects) - START */
+/* Section 7, 8 & section 10 styles (web projects) - START */
 
  .img-port {
   padding: 0px;
@@ -181,6 +181,12 @@ article {
 .div-port {
   padding: 0px;
   font-size: 0px;
+}
+
+.github {
+  padding: 0px;
+  padding-bottom: 25px;
+  font-size: 55px;
 }
 
 /* Section 8 styles (web projects) - END */
