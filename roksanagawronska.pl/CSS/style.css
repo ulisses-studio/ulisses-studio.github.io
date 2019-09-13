@@ -3,6 +3,11 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+   color: #484848;
+}
+
+
 .main-section {
 
     height: 100vh;
@@ -22,13 +27,33 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 80px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
        
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+        
 }
 
 #main-logo {
     border: solid 3px #484848;
     border-spacing: 10px;
     padding: 60px;
+    background-color: white;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+#main-logo:hover {
+  
+    width: 450px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    background-color: white;
    
 }
 
@@ -46,7 +71,25 @@ body {
     padding: 7px;
     border: 2px solid #484848;
     background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+   
 }
+
+.front-btn:hover {
+  background-color: #E583A9;
+  color: white;
+}
+
+
+.copyright {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: #E583A9;
+}
+
 
 /* Footer styles - start */
 
