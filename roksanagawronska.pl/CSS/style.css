@@ -263,6 +263,13 @@ background-image: linear-gradient(rgb(252, 252, 252), rgba(252, 252, 252, 0.596)
      
      padding-top: 80px;
  }
+
+ /* Form styles - START */
+
+ form {
+    position: relative;
+    top: 50px;
+ }
  
  
 
