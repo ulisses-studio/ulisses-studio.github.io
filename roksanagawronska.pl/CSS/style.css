@@ -184,7 +184,7 @@ background-image: linear-gradient(rgb(252, 252, 252), rgba(252, 252, 252, 0.596)
  }
 
  #logo-navbar {
-     width: 100px;
+     width: 120px;
      float: left;
      padding: 15px;
  }
@@ -192,10 +192,79 @@ background-image: linear-gradient(rgb(252, 252, 252), rgba(252, 252, 252, 0.596)
  .background {
 
     height: 100vh;
-   
-    
-    
+          
  }
+
+ /* "O mnie" page styles */
+
+ #portret {
+     
+     position: absolute;
+     box-sizing: border-box;
+     width: 20%;
+     border: 5px solid #E583A9;
+     top: 20%;
+     left: 20%;
+
+ }
+
+ article {
+     position: absolute;
+     top: 20%;
+     left: 45%;
+     right: 20%;
+     font-size: 20px;
+     color: #484848;
+     line-height: 27px;
+     
+ }
+
+ h1 {
+
+    font-size: 60px;
+    color: #E583A9;
+    padding-top: 10px;
+    position: relative;
+ }
+
+ .oferta-main {
+     position: absolute;
+     left: 20%;
+     right: 15%;
+ }
+
+ .oferty {
+    
+    display: flex;
+    width: 250px;
+    float: left;
+    padding: 30px;
+    
+
+ }
+ span {
+    color: #E583A9;
+    font-weight: bold;
+
+ }
+
+ .kontakt {
+     font-size: 30px;
+     color: #484848;
+ }
+
+ 
+
+ .p-kontakt {
+     padding: 20px;
+ }
+
+ .roksa-id {
+     
+     padding-top: 80px;
+ }
+ 
+ 
 
 
 
