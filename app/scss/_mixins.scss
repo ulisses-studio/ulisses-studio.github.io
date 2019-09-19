@@ -1,0 +1,53 @@
+@mixin logo {
+
+    color: $orange;
+    text-align: center;
+    padding-right: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    
+}
+
+@mixin btn {
+
+    background-color: $orange;
+    padding: 5px;
+    color: $white-font;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+@mixin IMAGE {
+
+    font-size: 22px;
+    color: $white-font;
+    font-family: 'Sintony', sans-serif;
+    text-align: center;
+}
+
+
+@mixin SMALL-IMAGE {
+
+    font-size: 15px;
+    color: $white-font;
+    font-family: 'Sintony', sans-serif;
+    text-align: center;
+}
+
+@mixin h6-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #14141D;
+    text-align: left;
+
+}
+
+@mixin small-poster {
+
+    width: 320px;
+    height: 335px;
+    height: 125px;
+    background-color: white;
+    margin-top: 106px;
+    
+}

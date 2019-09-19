@@ -1,0 +1,213 @@
+section {
+    
+    height: 750px;
+    
+}
+
+/* Main section */
+
+#main-section #subtitle {
+    font-size: 40px;
+
+    
+}
+
+#phone {
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    width: 400px;
+    color: white;
+   
+
+    span {
+
+        color: $orange;
+        font-size: 14px;
+    }
+
+    h3 {
+
+        font-size: 36px;
+       
+    }
+    
+}
+
+h6 {
+    @include IMAGE;
+    padding-top: 70px;
+    padding-bottom: 5px;
+       
+}
+
+
+/* Food menu section */
+
+#food-menu, #happy-clients {
+    height: 600px;
+    background-color: white;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+       background: #FE4C8D 
+      
+    }
+  
+}
+
+.menu-dish-item {
+
+    width: 531px;
+    height: 297px;
+    overflow: auto;
+    flex-basis: 50%;
+       
+}
+
+.container  {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    
+    
+   
+
+    #dish-item {
+       
+     
+     margin-right: 30px;
+     font-weight: bold;
+
+        span {
+
+           
+            float: right;
+            font-size: 26px;
+        }
+
+        .menu-dish-item {
+
+            font-weight: bold
+        }
+
+       
+     
+             
+    }
+
+    #explore {
+        margin-top: 30px;
+
+        h5 {
+            background-color: $orange;
+            width: 190px;
+            text-align: center;
+            padding:15px;
+            font-family: 'Sintony', sans-serif;
+            color: $white-font;
+            font-size: 14px;
+        }
+
+        /* background-color: $orange;
+        width: 190px; */
+    }
+
+    .dish {
+
+        padding-top:10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    h3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #today-special {
+
+        width: 531px;
+        display: flex;
+
+        #poster {
+
+            width: 320px;
+            height: 295px;
+            box-shadow: 5px 10px 30px gray;
+            background-color: $grey-section;
+            box-sizing: border-box;
+            position: absolute;
+            top: 890px;
+            right: 300px;
+            margin-top: 20px;
+            
+            
+
+            .small-poster {
+
+                @include small-poster;
+                margin-top:65px;
+                
+                .black-h6 {
+                    @include h6-title;
+                    padding: 20px;
+                }          
+                    
+              }
+            
+            }
+
+            h6 {
+                @include SMALL-IMAGE;
+               
+            }
+          
+        }
+
+        #poster2 {
+                
+            width: 320px;
+            height: 335px;
+            box-shadow: 5px 10px 30px gray;
+            background-color: $grey-section;
+            box-sizing: border-box;
+            position: absolute;
+            top: 890px;
+
+            .small-poster {
+
+                @include small-poster;
+                
+                
+                .black-h6 {
+                    @include h6-title;
+                    padding: 20px;
+                    padding-left:30px;
+                }
+
+               
+                
+                
+            }
+
+    }
+    
+}
+
+
+
+/* Reserve section */
+
+#reserve {
+    height: 518px;
+
+}
+
+
+

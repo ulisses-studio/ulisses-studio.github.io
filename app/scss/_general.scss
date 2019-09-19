@@ -1,0 +1,34 @@
+body {
+
+	background-color: #ECECD4;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+	background-color: $grey-section;
+}
+
+img {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+a:link, a:visited {
+	color: #ECECD4;
+	text-align: center;
+	text-decoration: none;
+	}
+
+	h1{
+		color: $white-font;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 70px;
+	}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
