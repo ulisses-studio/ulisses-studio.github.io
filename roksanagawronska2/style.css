@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: #E583A9;
+    text-decoration: none;
+ }
+ 
+ a:hover {
+     color: rgb(247, 220, 230);
+ }
+
+
+.main-section {
+    height: 100vh;
+    position: relative;
+    background-image: url('img/rg-tlo3.jpg');
+    background-repeat: repeat;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.main-background {
+    position: absolute;
+    top: 9%;
+    text-align: center;
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 17%;
+    border-top: 3px solid #5D5C5C;
+    border-bottom: 3px solid #5D5C5C;
+    opacity: 0.85;
+}
+
+.btn {
+    position: absolute;
+    top: 110%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left:50%;
+    transform: translateX(-50%); 
+
+}
+
+#main-logo-img {
+    width: 85%;
+    position: relative;
+    top: 50%;
+
+}
+
+.copyright {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 200px;
+    color: #E381A7;
+}
+
+
+.front-btn {
+    font-size: 1.1em;
+    padding: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border: 2px solid #484848;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+   
+}
+
+.front-btn:hover {
+  background-color: #E583A9;
+  color: white;
+}
+
+
+
+footer {
+    
+    background-color: #484848;
+    border-bottom: solid rgb(49, 49, 49) 10px;
+    position: relative;
+   
+   
+}
+
+footer i {
+    font-size: 1em;
+    color: rgb(228, 228, 228);
+    padding: 10px;
+   
+}
+
+.footer-elements {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: 210px;
+    height: 100px;
+   
+
+}
+
+.footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-data {
+    display: flex;
+    align-items: center;
+    color: rgb(228, 228, 228);
+}
+
+.logo-footer {
+  display: none;
+}
+
+.politics {
+   position: absolute;
+   bottom: 15%;
+   color: rgb(122, 122, 122);
+   text-align: center;
+  
+}
+
+p span::after {
+    content: '\A';
+    white-space: pre;
+
+}
+
+.politics p {
+    line-height: 20px;
+
+}
+    
