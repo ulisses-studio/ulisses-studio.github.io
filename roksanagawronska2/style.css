@@ -56,12 +56,13 @@ a {
 
 .copyright {
     position: absolute;
-    top: 52%;
+    bottom: 7%;
     left: 50%;
     text-align: center;
     transform: translateX(-50%);
     width: 200px;
     color: #E381A7;
+
 }
 
 
@@ -86,20 +87,16 @@ a {
 
 
 
-footer {
-    
+footer {    
     background-color: #484848;
     border-bottom: solid rgb(49, 49, 49) 10px;
-    position: relative;
-   
-   
+    position: relative;   
 }
 
 footer i {
     font-size: 1em;
     color: rgb(228, 228, 228);
-    padding: 10px;
-   
+    padding: 10px;   
 }
 
 .footer-elements {
@@ -116,8 +113,6 @@ footer i {
     margin-bottom: 60px;
     width: 210px;
     height: 100px;
-   
-
 }
 
 .footer-icons {
@@ -139,18 +134,75 @@ footer i {
    position: absolute;
    bottom: 15%;
    color: rgb(122, 122, 122);
-   text-align: center;
-  
+   text-align: center;  
 }
 
 p span::after {
     content: '\A';
     white-space: pre;
-
 }
 
 .politics p {
     line-height: 20px;
 
+}
+
+/* MEDIA QUERIES */
+
+@media (orientation: landscape) {
+
+    .main-background {
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        text-align: center;     
+        padding-top: 12%;
+        padding-bottom: 4%;
+        border: none;
+        border-right: solid rgb(121, 121, 121) 3px;        
+    }
+
+    .btn {
+        left: 150%;
+        top: -50%;
+        text-align: center;
+        position: relative;        
+    }
+
+    
+    .front-btn {   
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 7px;
+    margin-right: 5%;
+    margin-left: 5%;
+   
+}
+
+    .copyright {   
+    bottom: 30%;
+    left: 50%;    
+  
+}
+
+  
+}
+
+
+@media (min-width: 768px) {
+
+ 
+}
+
+@media (min-width: 1024px) {
+
+   
+}
+
+@media (min-width: 1280px) {
+
+   
 }
     
