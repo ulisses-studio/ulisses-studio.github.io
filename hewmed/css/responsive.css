@@ -1,0 +1,264 @@
+@media (min-width: 0px) and (max-width:415px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+
+    .sekcja1 {
+        background-image: url("../img/mobile-poster2.jpg");
+        background-size: cover;
+        width: auto;
+        overflow: hidden;
+    }
+
+    nav {
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .nav-link {
+        background-color: #202020;
+    }
+
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+        color: #009A93;
+    }
+
+    .sekcja1 figure {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    ul, li {
+        font-size: 0.9em;
+    }
+
+    article {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .sekcja3 .portret {
+        width: 60%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+
+    .sekcja3 h2 {
+        font-size: 1.4em;
+        text-align: center;
+        padding: 0px;
+    }
+
+    h5 {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+        padding: 0px;
+    }
+
+    hr {
+        overflow: hidden;
+    }
+
+    .sekcja5 h2 {
+        font-size: 1.4em;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-top: 20%;
+    }
+
+    .sekcja4 {
+        padding-right: 1%;
+        padding-left: 1%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .sekcja4 h2 {
+        font-size: 1.4em;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-top: 20%;
+    }
+
+    .sekcja6 {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .sekcja6 p {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .sekcja6 h2 {
+        margin-top: 10%;
+    }
+
+    .sekcja8 h2 {
+        margin-top: 10%;
+    }
+
+    .rejestracja-btn {
+        font-size: 0.8em;
+        width: 50%;
+    }
+
+    .sekcja3 .podpis {
+        width: 55%;
+        text-align: center;
+        margin: 0%;
+        margin-bottom: 5%;
+    }
+
+    .sekcja4 p {
+        padding-bottom: 2%;
+    }
+
+    .sekcja4 h2,
+    h3 {
+        margin-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .sekcja4 .idea-o {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .sekcja5 h2 {
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+
+    .sekcja6 h2 {
+        padding-bottom: 3%;
+    }
+
+    .sekcja7 h2 {
+        font-size: 1.2em;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+
+    .sekcja8 h2 {
+        text-align: center;
+    }
+
+    .sekcja7 h2 span {
+        font-size: 1em;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .rejestracja-btn {
+        width: 70%;
+        margin-top: 9%;
+        margin-bottom: 9%;
+    }
+
+    .par-portfolio {
+        position: relative;
+    }
+
+    .orly, .cert {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+
+    .sekcja7 h2 {
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    .sekcja7 .orly {
+        width: 30%;
+        padding-top: 2%;
+    }
+
+    .sekcja7 .cert {
+        width: 30%;
+        margin-top: 45%;
+        left: 48%;
+    }
+
+    .sekcja9 h2 {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .p-stopka {
+        font-size: 0.8em;
+        padding-left: 15%;
+    }
+
+    input, label, textarea {
+        width: 100%;
+    }
+
+    .sekcja9 h3 {
+        text-align: center;
+    }
+
+    .sekcja9 iframe {
+        padding: 0px;
+        padding-bottom: 25%;
+        width: 90%;
+    }
+
+    .iframe-item {
+        padding: 0%;
+    }
+
+    .fab {
+        font-size: 1.5em;
+        padding-bottom: 20%;
+    }
+
+    .sekcja9 .iframe-item {
+        width: 90%;
+        height: 25%;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+
+    .cookiealert {
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width: 415px) and (max-width:950px) {
+
+    .sekcja1 {
+        background-image: url("../img/main-poster-tablet.jpg");
+    }
+
+}

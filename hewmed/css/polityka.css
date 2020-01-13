@@ -1,0 +1,10 @@
+
+body {
+    background-position: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.8em;
+    background-color: rgb(207, 235, 233);
+    color: rgb(66, 66, 66);
+    padding-left: 5%;
+    padding-right: 5%;    
+  }
